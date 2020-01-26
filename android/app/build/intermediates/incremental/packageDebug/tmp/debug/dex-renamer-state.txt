@@ -1,4 +1,4 @@
-#Sat Jan 25 20:44:03 BRT 2020
+#Sat Jan 25 21:30:24 BRT 2020
 base.0=/home/guilherme/Workspace/sideprojects/picpay-clone/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 path.0=classes.dex
