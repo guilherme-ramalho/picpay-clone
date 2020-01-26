@@ -1,8 +1,18 @@
 import React from 'react';
-import { Text } from 'react-native';
+import Swiper from 'react-native-swiper';
+import { View, Text } from 'react-native';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 export default function Home() {
-  return <Text>Home</Text>;
+  return (
+    <Swiper showsPagination={false}>
+      <Container color="red">
+        <Text>Camera</Text>
+      </Container>
+      <Container color="yellow">
+        <Text>Home</Text>
+      </Container>
+    </Swiper>
+  );
 }
